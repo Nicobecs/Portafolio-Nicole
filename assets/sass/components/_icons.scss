@@ -1,0 +1,12 @@
+.skill-icon {
+    width: 64px;
+    height: 64px;
+    transition: transform 0.3s ease;
+    background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.skill-icon:hover {
+    transform: scale(1.1);
+}

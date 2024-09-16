@@ -1,0 +1,45 @@
+// Import abstracts
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders';
+
+// Import base
+@import 'base/reset';
+@import 'base/typography';
+
+// Import components
+@import 'components/buttons';
+@import 'components/carousel';
+@import 'components/cover';
+@import 'components/dropdown';
+@import 'components/navbar';
+@import 'components/hero';
+@import 'components/icons';
+@import 'components/cards';
+@import 'components/contact';
+@import 'components/gallery';
+
+// Import layout
+@import 'layout/navigation';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sidebar';
+@import 'layout/forms';
+
+// Import pages
+@import 'pages/home';
+@import 'pages/contact';
+
+// Import themes
+@import 'themes/theme';
+@import 'themes/admin';
+
+// Import vendors
+@import 'vendors/bootstrap';
+@import 'vendors/jquery-ui';
+
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
